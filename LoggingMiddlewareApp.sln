@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingMiddlewareApp", "LoggingMiddlewareApp\LoggingMiddlewareApp.csproj", "{395F273B-0067-4E57-BA9B-056E4B49F4FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{395F273B-0067-4E57-BA9B-056E4B49F4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395F273B-0067-4E57-BA9B-056E4B49F4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395F273B-0067-4E57-BA9B-056E4B49F4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395F273B-0067-4E57-BA9B-056E4B49F4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A85DEAC0-4E9B-454E-9DA2-32F9F38B3E2F}
+	EndGlobalSection
+EndGlobal
