@@ -1,8 +1,6 @@
 using LoggingMiddlewareApp.Data;
 using LoggingMiddlewareApp.Middlewares;
 using LoggingMiddlewareApp.Models;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
 
 namespace LoggingMiddlewareApp
@@ -41,6 +39,7 @@ namespace LoggingMiddlewareApp
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My CRUD API v1");
+                c.RoutePrefix = string.Empty;
             });
 
             // Define your minimal API endpoints here

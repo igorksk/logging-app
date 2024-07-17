@@ -1,6 +1,4 @@
-﻿using System.Text.Json.Serialization;
-
-namespace LoggingMiddlewareApp.Models
+﻿namespace LoggingMiddlewareApp.Models
 {
     public class Product
     {
