@@ -67,13 +67,13 @@ namespace LoggingMiddlewareApp
                 }
 
                 InMemoryDataStore.UpdateProduct(product);
-                return Results.NoContent();
+                return Results.Ok(product);
             });
 
             app.MapDelete("/products/{id}", (int id) =>
             {
                 InMemoryDataStore.DeleteProduct(id);
-                return Results.NoContent();
+                return Results.Ok();
             });
 
             app.Run();
